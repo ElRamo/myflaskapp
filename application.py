@@ -4,6 +4,7 @@ import json
 
 app = Flask(__name__)
 
+#Test
 @app.route('/', methods=['GET'])
 def hello():
 	return 'Hello!!!', 200      # 200 is HTTP the response code to be returned to client
