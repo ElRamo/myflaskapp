@@ -2,6 +2,7 @@ import json
 from application import app
 import pytest
     
+#Test
 class TestClass():
     def setup_class(self):
         app.config['TESTING'] = True
